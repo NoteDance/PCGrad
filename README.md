@@ -34,6 +34,7 @@ The `PCGrad` (Projected Conflicting Gradients) method is a gradient surgery tech
 **Example Usage**:
 ```python
 import tensorflow as tf
+from pcgrad import PCGrad
 
 # Define model and tasks
 model = tf.keras.Sequential([
